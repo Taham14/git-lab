@@ -1,0 +1,9 @@
+git add: Stages changes for commit. It’s necessary so Git knows what changes to include in the next commit.
+
+git commit: Saves staged changes in your local repo. It’s necessary before git push to ensure you’re pushing committed changes.
+
+git clone vs git pull:
+
+git clone: Copies a remote repo to your local machine (done once).
+git pull: Fetches and merges updates from a remote repo to your local branch (done regularly).
+Verify git pull: Check output for success, run git log to see new commits, or use git status to ensure everything is up to date. 
